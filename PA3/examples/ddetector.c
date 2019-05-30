@@ -90,6 +90,29 @@ int check_tid(unsigned long int tid){
 	return -1;
 }
 
+// mutex_log에서 락이 다 빠지면 스레드도 없애준다. (기록에서) 
+/*void add_tid(unsigned long int tid){
+	for(int i=0; i<10; i++){
+		if(tid_log[i] == 0){
+			tid_log[i] = tid;
+			break;
+		}
+	}
+}
+*/
+
+// tid_log에서 가장 가까운 빈 공간 리턴
+int get_empty_tid_log(){
+	for(int i=0; i<10; i++){
+		if(tid_log[i] == 0){
+			return i;
+		}
+	}
+	return -1;
+}
+
+
+
 // adj_matrix에서 첫째 줄에 노드 추가(lock)
 void node_check(pthread_mutex_t *mutex){
 	new_check = 0;
@@ -150,6 +173,14 @@ void remove_edge(pthread_mutex_t *before, pthread_mutex_t *mutex){
 	remove_node(mutex);
 }
 
+// tid_log 리셋 (unlock)
+void reset_tid_log(){
+	for(int i=0; i<10; i++){
+		if(mutex_log[i][0] == NULL){
+			tid_log[i] = 0;
+		}
+	}
+}
 
 // lock을 overriding
 int pthread_mutex_lock(pthread_mutex_t *mutex){
@@ -171,8 +202,13 @@ int pthread_mutex_lock(pthread_mutex_t *mutex){
 		// 처음오는 스레드이면 새롭게 추가하고/ 아니면 기존 거에 추가한다.
 		int now = check_tid(tid);
 		if(now == -1){
-			tid_log[thread_count] = tid;
-			now = thread_count++;
+			// add tid to tid_log
+			//add_tid(tid);
+			now = get_empty_tid_log();
+			tid_log[now] = tid;
+
+		//	tid_log[thread_count] = tid;
+		//	now = thread_count++;
 		}
 		mutex_log[now][curr[now]++] = mutex;
 
@@ -228,7 +264,7 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex){
 				}
 			}
 		}
-		printf("erase ch : %d, curr[now] : %d\n",erase_check, curr[now]);
+		printf("erase ch : %d, curr[now] : %d, \n",erase_check, curr[now]);
 		if(erase_check == 0){
 			if(curr[now] == 0){
 				remove_node(mutex);
@@ -240,7 +276,7 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex){
 			}
 		}
 
-
+		reset_tid_log();
 		print_all();
 
 	//UNLOCK+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
