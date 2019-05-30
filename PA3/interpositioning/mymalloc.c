@@ -17,7 +17,7 @@ malloc (size_t size)
 
 	char * ptr = mallocp(size) ;
 
-	//printf("malloc(%d)=%p\n", (int) size, ptr) ;
+//printf("malloc(%d)=%p\n", (int) size, ptr) ;
 	char buf[50] ;
 	snprintf(buf, 50, "malloc(%d)=%p\n", (int) size, ptr) ;
 	fputs(buf, stderr) ;

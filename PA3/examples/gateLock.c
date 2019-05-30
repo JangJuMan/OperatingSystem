@@ -6,11 +6,12 @@
 
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t mutex2 = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t mutex3 = PTHREAD_MUTEX_INITIALIZER;
 
 void 
 noise()
 {
-//	usleep(rand() % 1000) ;
+	usleep(rand() % 1000) ;
 }
 
 void *
@@ -18,6 +19,8 @@ thread(void *arg)
 {
 		pthread_mutex_lock(&mutex);	 noise() ;
 		pthread_mutex_lock(&mutex2); noise() ;
+		pthread_mutex_lock(&mutex3);	noise();
+		pthread_mutex_unlock(&mutex3);	noise();
 		pthread_mutex_unlock(&mutex2); noise() ;
 		pthread_mutex_unlock(&mutex); noise() ;
 
@@ -32,10 +35,12 @@ main(int argc, char *argv[])
 
 	pthread_create(&tid, NULL, thread, NULL);
 		
-	pthread_mutex_lock(&mutex2); noise() ; 
-	pthread_mutex_lock(&mutex);	noise() ; 
+	pthread_mutex_lock(&mutex); noise();
+	pthread_mutex_lock(&mutex3); noise() ; 
+	pthread_mutex_lock(&mutex2);	noise() ; 
+	pthread_mutex_unlock(&mutex2);	noise();
+	pthread_mutex_unlock(&mutex3); noise() ;
 	pthread_mutex_unlock(&mutex); noise() ;
-	pthread_mutex_unlock(&mutex2); noise() ;
 
 	pthread_join(tid, NULL);
 	return 0;

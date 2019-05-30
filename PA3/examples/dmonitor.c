@@ -127,7 +127,7 @@ void edge_add(pthread_mutex_t *before, pthread_mutex_t *mutex){
 // adj_matrix에서 첫째 줄에 노드 제거 (unlock)
 void remove_node(pthread_mutex_t *mutex){
 	for(int i=0; i<100; i++){
-//		printf("adj_matrix[%d][0] == %p == mutex(%p)\n",i, adj_matrix[i][0], mutex);
+		printf("adj_matrix[%d][0] == %p == mutex(%p)\n",i, adj_matrix[i][0], mutex);
 		if(adj_matrix[i][0] == mutex){
 			adj_matrix[i][0] = 0;
 			break;
@@ -140,9 +140,9 @@ void remove_node(pthread_mutex_t *mutex){
 void remove_edge(pthread_mutex_t *before, pthread_mutex_t *mutex){
 	for(int i=0; i<100; i++){
 		if(adj_matrix[i][0] == before){
-//			fprintf(stderr, "<< is same?\n");
+			fprintf(stderr, "<< is same?\n");
 			if(adj_matrix[i][edge_tail[i]] == mutex){
-//				fprintf(stderr, ">> same\n");
+				fprintf(stderr, ">> same\n");
 				adj_matrix[i][edge_tail[i]--] = 0;
 			}
 			break;
@@ -193,11 +193,11 @@ int pthread_mutex_lock(pthread_mutex_t *mutex){
 				edge_add(mutex_log[now][i], mutex);
 		}
 
-		print_all();
 
+		print_all();
 	//UNLOCKㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗ
 	pthread_mutex_unlock_p(&MUTE);
-	fprintf(stderr, "Ending of pthread_mutex_lock(%p)===================================\n\n\n", mutex);
+	fprintf(stderr, "Ending of pthread_mutex_lock()===================================\n\n\n");
 
 	return pthread_mutex_lock_p(mutex);
 }
@@ -223,40 +223,36 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex){
 
 		// 일치하는 스레드에서 해당 뮤택스를 지운다
 		int now = check_tid(tid);
-		if(now == -1){
-		}
-		else{	
-			mutex_log[now][--curr[now]] = 0;
+		mutex_log[now][--curr[now]] = 0;
 
-			for(int i=0; i<100; i++){
-				for(int j=1; j<100; j++){
-					if(i == now){	
-					}
-					else{
-						if(adj_matrix[i][j] == mutex){
-							erase_check++;
-						}
-					}
-				}
-			}
-//			printf("erase ch : %d, curr[now] : %d, \n",erase_check, curr[now]);
-			if(erase_check == 0){
-				if(curr[now] == 0){
-					remove_node(mutex);
+		for(int i=0; i<100; i++){
+			for(int j=1; j<100; j++){
+				if(i == now){	
 				}
 				else{
-					for(int i=0; i<curr[now]; i++){
-						remove_edge(mutex_log[now][i],mutex);
+					if(adj_matrix[i][j] == mutex){
+						erase_check++;
 					}
 				}
 			}
 		}
+		printf("erase ch : %d, curr[now] : %d, \n",erase_check, curr[now]);
+/*		if(erase_check == 0){
+			if(curr[now] == 0){
+				remove_node(mutex);
+			}
+			else{
+				for(int i=0; i<curr[now]; i++){
+					remove_edge(mutex_log[now][i],mutex);
+				}
+			}
+		}
+*/
 		reset_tid_log();
 		print_all();
 
 	//UNLOCKㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗ
-	pthread_mutex_unlock_p(&MUTE);
-	fprintf(stderr, "Ending of pthread_mutex_unlock(%p)+++++++++++++++++++++++++++++++++++++\n\n\n", mutex);
+	fprintf(stderr, "Ending of pthread_mutex_unlock()+++++++++++++++++++++++++++++++++++++\n\n\n");
 
 	return pthread_mutex_unlock_p(mutex);
 }
