@@ -260,10 +260,6 @@ int pthread_mutex_lock(pthread_mutex_t *mutex){
 		}
 
 		print_all();
-		if(isCycle() == 1){
-			printf("\n\n\n\n\n\n\n\n\n\n\t>>> [ DEAD LOCK ] <<<\n\n\n\n\n\n\n\n\n\n\n\n\n");
-		}
-
 
 //		fprintf(stderr, "\t\tresult = %d\n\n", isCycle());
 
@@ -280,6 +276,10 @@ int pthread_mutex_lock(pthread_mutex_t *mutex){
 	//UNLOCKㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗ
 	pthread_mutex_unlock_p(&MUTE);
 	fprintf(stderr, "Ending of pthread_mutex_lock(%p)===================================\n\n\n", mutex);
+
+	if(isCycle() == 1){
+		printf("\n\n\n\n\n\n\n\n\n\n\t>>> [ DEAD LOCK ] <<<\n\n\n\n\n\n\n\n\n\n\n\n\n");
+	}
 
 	return pthread_mutex_lock_p(mutex);
 }
@@ -360,9 +360,15 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex){
 //			fprintf(stderr, "\n\n\n\n\n\ndeadlock\n\n\n\n\n\n");
 
 
+		print_all();
+
 	//UNLOCKㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗ
 	pthread_mutex_unlock_p(&MUTE);
 	fprintf(stderr, "Ending of pthread_mutex_unlock(%p)+++++++++++++++++++++++++++++++++++++\n\n\n", mutex);
+
+	if(isCycle() == 1){
+		printf("\n\n\n\n\n\n\n\n\n\n\t>>> [ free DEAD LOCK ] <<<\n\n\n\n\n\n\n\n\n\n\n\n\n");
+	}
 
 	return pthread_mutex_unlock_p(mutex);
 }
