@@ -5,18 +5,21 @@
 #include<execinfo.h>
 #include<pthread.h>
 #include<unistd.h>
-
+#include<string.h>
 static pthread_mutex_t MUTE = PTHREAD_MUTEX_INITIALIZER;
 
-static unsigned long int tid_log[10] = {0x0};
-static pthread_mutex_t* mutex_log[10][100] = {0};
-static pthread_mutex_t* adj_matrix[100][100] ={0};
+static unsigned long int tid_log[10] = {0x0, };
+static pthread_mutex_t* mutex_log[10][100] = {0, };
+static pthread_mutex_t* adj_matrix[100][100] ={0, };
 static int number_of_node = 0;
-static int edge_tail[100] = {0};
+static int edge_tail[100] = {0, };
 static int new_check = 0;
 static int adj_col=0;
 static int thread_count=0;	
-static int curr[10] = {0};
+static int curr[10] = {0, };
+int visited[100] = {0, };
+//static int finished[100][100] = {0, };
+int findCycleAlgorithm(int );
 
 //for debug--------------------------------
 void print_curr(){
@@ -160,9 +163,27 @@ void reset_tid_log(){
 	}
 }
 
+// cycle check
+/*int isCycleUtil(int v){
+
+}
+
+int isCycle(){
+	for(int i=0; i<100; i++){
+		if(adj_matrix[i][0] != NULL){
+			if(isCycleUtil(i)){
+				return 1;
+			}
+		}
+	}
+	return 0;
+}
+*/
+
 // lock을 overriding
 int pthread_mutex_lock(pthread_mutex_t *mutex){
-	
+
+	memset(visited, 0, sizeof(visited));
 	int (*pthread_mutex_lock_p)(pthread_mutex_t *mutex);
 	int (*pthread_mutex_unlock_p)(pthread_mutex_t *mutex);
 	char* error;
@@ -194,6 +215,10 @@ int pthread_mutex_lock(pthread_mutex_t *mutex){
 		}
 
 		print_all();
+		printf("if cycle? : %d\n",findCycleAlgorithm(0));
+		if(findCycleAlgorithm(0))
+			fprintf(stderr, "\n\n\n\t>>>> [DEAD LOCK] <<<<\n\n\n\n");
+		// 아닙니다		if(isCycle(i));
 
 	//UNLOCKㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗ
 	pthread_mutex_unlock_p(&MUTE);
@@ -205,7 +230,7 @@ int pthread_mutex_lock(pthread_mutex_t *mutex){
 
 // unlock 을 overriding
 int pthread_mutex_unlock(pthread_mutex_t *mutex){
-
+	memset(visited, 0, sizeof(visited));
 	int erase_check = 0;
 	int (*pthread_mutex_lock_p)(pthread_mutex_t *mutex);
 	int (*pthread_mutex_unlock_p)(pthread_mutex_t *mutex);
@@ -253,11 +278,36 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex){
 		}
 		reset_tid_log();
 		print_all();
+		//////////////// new one/////////
+		//if(isCycling){
+		//	printf("[unlock] : is cycle!\n");
+		//}
+
+		if(findCycleAlgorithm(0)) 
+			fprintf(stderr, "\n\n\n\n\n\ndeadlock\n\n\n\n\n\n");
+
 
 	//UNLOCKㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗ
 	pthread_mutex_unlock_p(&MUTE);
 	fprintf(stderr, "Ending of pthread_mutex_unlock(%p)+++++++++++++++++++++++++++++++++++++\n\n\n", mutex);
 
 	return pthread_mutex_unlock_p(mutex);
+}
+
+int findCycleAlgorithm(int here){
+	if(visited[here] != 0){
+		if(visited[here] == -1)
+			return 1;
+		else
+			return 0;
+	}
+	visited[here] = -1;
+	for(int there = 0; there < 100; there++){
+		if(here != there && adj_matrix[here][there] != NULL && findCycleAlgorithm(there))
+			return 1;
+	}
+
+	visited[here] = 1;
+	return 0;
 }
 
