@@ -64,7 +64,7 @@ philosopher(void * arg)
 	int phid = *((int *) arg) ;
 	int i ;
 
-	for (i = 0 ; i < 10 ; i++) {
+	for (i = 0 ; i < 4 ; i++) {	//10
 		thinking() ;
 		pickup(phid) ;
 		eating(phid) ;

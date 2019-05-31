@@ -1,0 +1,2572 @@
+Starting of pthread_mutex_lock(0x602158)==================================
+[curr]---------
+[1] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939579631360] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602158)===================================
+
+
+Starting of pthread_mutex_lock(0x602188)==================================
+[curr]---------
+[2] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939579631360] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602188)===================================
+
+
+Starting of pthread_mutex_lock(0x6020c8)==================================
+[curr]---------
+[2] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939579631360] [139939604809472] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020c8)===================================
+
+
+Starting of pthread_mutex_lock(0x6020f8)==================================
+[curr]---------
+[2] [2] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939579631360] [139939604809472] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020f8)===================================
+
+
+Starting of pthread_mutex_lock(0x6020f8)==================================
+[curr]---------
+[2] [2] [1] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939579631360] [139939604809472] [139939596416768] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020f8)===================================
+
+
+Starting of pthread_mutex_lock(0x602128)==================================
+[curr]---------
+[2] [2] [1] [1] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939579631360] [139939604809472] [139939596416768] [139939588024064] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602128)===================================
+
+
+Starting of pthread_mutex_lock(0x602158)==================================
+[curr]---------
+[2] [2] [1] [2] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939579631360] [139939604809472] [139939596416768] [139939588024064] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [1] [0] [0] [0] [0] [0] 
+
+
+
+	>>> [ DEAD LOCK ] <<<
+
+
+Ending of pthread_mutex_lock(0x602158)===================================
+
+
+Starting of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[1] [2] [1] [2] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939579631360] [139939604809472] [139939596416768] [139939588024064] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [1] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[0] [2] [1] [2] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [139939604809472] [139939596416768] [139939588024064] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [1] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x602188)==================================
+[curr]---------
+[1] [2] [1] [2] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939571238656] [139939604809472] [139939596416768] [139939588024064] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [1] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602188)===================================
+
+
+Starting of pthread_mutex_lock(0x6020c8)==================================
+[curr]---------
+[2] [2] [1] [2] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939571238656] [139939604809472] [139939596416768] [139939588024064] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [1] [1] [0] [1] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020c8)===================================
+
+
+Starting of pthread_mutex_lock(0x602158)==================================
+[curr]---------
+[2] [2] [1] [2] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939571238656] [139939604809472] [139939596416768] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [1] [1] [0] [1] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602158)===================================
+
+
+Starting of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [1] [1] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939571238656] [139939604809472] [139939596416768] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [1] [0] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939571238656] [139939604809472] [139939596416768] [0] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [1] [1] [0] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939571238656] [139939604809472] [139939596416768] [0] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Starting of pthread_mutex_lock(0x602128)==================================
+[curr]---------
+[2] [1] [1] [1] Ending of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++++
+
+
+[1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939571238656] [139939604809472] [139939596416768] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602128)===================================
+
+
+Starting of pthread_mutex_lock(0x602158)==================================
+[curr]---------
+[2] [1] [1] [2] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939571238656] [139939604809472] [139939596416768] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602158)===================================
+
+
+Starting of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [0] [1] [2] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939571238656] [0] [139939596416768] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x602128)==================================
+[curr]---------
+[2] [0] [2] [2] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939571238656] [0] [139939596416768] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602128)===================================
+
+
+Starting of pthread_mutex_lock(0x602188)==================================
+[curr]---------
+[2] [0] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939571238656] [0] [139939596416768] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [1] [0] [0] [0] [0] [0] [0] 
+
+
+
+	>>> [ DEAD LOCK ] <<<
+
+
+Ending of pthread_mutex_lock(0x602188)===================================
+
+
+Starting of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[1] [0] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939571238656] [0] [139939596416768] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [0] [1] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[0] [0] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [0] [139939596416768] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [0] [1] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x6020c8)==================================
+[curr]---------
+[1] [0] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [0] [139939596416768] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [0] [1] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020c8)===================================
+
+
+Starting of pthread_mutex_lock(0x6020f8)==================================
+[curr]---------
+[2] [0] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [0] [139939596416768] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [1] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020f8)===================================
+
+
+Starting of pthread_mutex_lock(0x602188)==================================
+[curr]---------
+[2] [1] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939596416768] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [1] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602188)===================================
+
+
+Starting of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [1] [2] [2] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939596416768] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [1] [2] [2] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939596416768] [139939588024064] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x6020c8)==================================
+[curr]---------
+[2] [2] [2] [2] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939596416768] [139939588024064] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020c8)===================================
+
+
+Starting of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [2] [1] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939596416768] [139939588024064] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [2] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939596416768] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x602158)==================================
+[curr]---------
+[2] [2] [2] [1] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939596416768] [139939579631360] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602158)===================================
+
+
+Starting of pthread_mutex_lock(0x602188)==================================
+[curr]---------
+[2] [2] [2] [2] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939596416768] [139939579631360] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602188)===================================
+
+
+Starting of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [1] [2] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939596416768] [139939579631360] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [0] [2] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [0] [139939579631360] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x602128)==================================
+[curr]---------
+[2] [2] [1] [2] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602128)===================================
+
+
+Starting of pthread_mutex_lock(0x602158)==================================
+[curr]---------
+[2] [2] [2] [2] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939588024064] [139939579631360] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602158)===================================
+
+
+Starting of pthread_mutex_lock(0x6020f8)==================================
+[curr]---------
+[2] [2] [2] [2] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939588024064] [139939579631360] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020f8)===================================
+
+
+Starting of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[1] [2] [2] [2] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939588024064] [139939579631360] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[0] [2] [2] [2] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [139939571238656] [139939588024064] [139939579631360] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x602128)==================================
+[curr]---------
+[0] [2] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [139939571238656] [139939588024064] [139939579631360] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602128)===================================
+
+
+Starting of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[0] [1] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [139939571238656] [139939588024064] [139939579631360] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[0] [0] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [0] [139939588024064] [139939579631360] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x6020c8)==================================
+[curr]---------
+[1] [0] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [0] [139939588024064] [139939579631360] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020c8)===================================
+
+
+Starting of pthread_mutex_lock(0x6020f8)==================================
+[curr]---------
+[2] [0] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [0] [139939588024064] [139939579631360] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020f8)===================================
+
+
+Starting of pthread_mutex_lock(0x602188)==================================
+[curr]---------
+[2] [1] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939588024064] [139939579631360] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602188)===================================
+
+
+Starting of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [1] [2] [1] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939588024064] [139939579631360] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [1] [2] [0] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939588024064] [0] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x6020c8)==================================
+[curr]---------
+[2] [2] [2] [0] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939588024064] [0] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020c8)===================================
+
+
+Starting of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [1] [0] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939588024064] [0] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [0] [0] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [0] [0] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x602158)==================================
+[curr]---------
+[2] [2] [1] [0] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939579631360] [0] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602158)===================================
+
+
+Starting of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [1] [0] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939579631360] [0] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [1] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939579631360] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x602128)==================================
+[curr]---------
+[2] [2] [1] [1] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939579631360] [139939588024064] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602128)===================================
+
+
+Starting of pthread_mutex_lock(0x602158)==================================
+[curr]---------
+[2] [2] [1] [2] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939579631360] [139939588024064] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602158)===================================
+
+
+Starting of pthread_mutex_lock(0x6020f8)==================================
+[curr]---------
+[2] [2] [1] [2] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939579631360] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020f8)===================================
+
+
+Starting of pthread_mutex_lock(0x602188)==================================
+[curr]---------
+[2] [2] [2] [2] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939579631360] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602188)===================================
+
+
+Starting of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[1] [2] [2] [2] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939579631360] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[0] [2] [2] [2] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [139939571238656] [139939579631360] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x602128)==================================
+[curr]---------
+[0] [2] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [139939571238656] [139939579631360] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602128)===================================
+
+
+Starting of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[0] [1] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [139939571238656] [139939579631360] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[0] [0] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [0] [139939579631360] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x6020c8)==================================
+[curr]---------
+[1] [0] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [0] [139939579631360] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020c8)===================================
+
+
+Starting of pthread_mutex_lock(0x6020f8)==================================
+[curr]---------
+[2] [0] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [0] [139939579631360] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020f8)===================================
+
+
+Starting of pthread_mutex_lock(0x602188)==================================
+[curr]---------
+[2] [1] [2] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939579631360] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602188)===================================
+
+
+Starting of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [1] [1] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939579631360] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [1] [0] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [0] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x6020c8)==================================
+[curr]---------
+[2] [2] [0] [2] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [0] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602158] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[1] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020c8)===================================
+
+
+Starting of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [0] [1] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [0] [139939588024064] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602158)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [0] [0] [2] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [0] [0] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [0] [0] [1] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [0] [0] [139939596416768] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[2] [2] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x6020f8)==================================
+[curr]---------
+[2] [2] [1] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939596416768] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [1] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x6020f8)===================================
+
+
+Starting of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[1] [2] [1] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[139939604809472] [139939571238656] [139939596416768] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[0] [2] [1] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [139939571238656] [139939596416768] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_lock(0x602128)==================================
+[curr]---------
+[0] [2] [2] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [139939571238656] [139939596416768] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020c8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_lock(0x602128)===================================
+
+
+Starting of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[0] [1] [2] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [139939571238656] [139939596416768] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[0x602128] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020c8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[0] [1] [1] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [139939571238656] [139939596416768] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x6020f8] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602128)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[0] [1] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [139939571238656] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[0x602188] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x6020f8)+++++++++++++++++++++++++++++++++++++
+
+
+Starting of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++
+[curr]---------
+[0] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[tid_log]----------
+[0] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+
+[mutex_log]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+
+[adj_matrix]---------
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+[(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] [(nil)] 
+
+[edge_tail]----------
+[0] [0] [0] [0] [0] [0] [0] [0] [0] [0] 
+Ending of pthread_mutex_unlock(0x602188)+++++++++++++++++++++++++++++++++++++
+
+

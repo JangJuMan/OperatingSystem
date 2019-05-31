@@ -1,0 +1,2 @@
+LD_PRELOAD=./ddetector.so ./dinning_deadlock
+Makefile:16: recipe for target 'DIN' failed
