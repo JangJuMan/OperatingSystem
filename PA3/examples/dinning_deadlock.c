@@ -45,6 +45,7 @@ pickup(int phid)
 	int right = (phid + 1) % 5 ;
 
 	pthread_mutex_lock(&(chopstick[left].mutex)) ;
+	thinking();
 	pthread_mutex_lock(&(chopstick[right].mutex)) ;
 }
 

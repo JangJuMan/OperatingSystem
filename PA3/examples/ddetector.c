@@ -20,8 +20,6 @@ static int curr[10] = {0, };
 int visited[100] = {0, };
 int d[100] = {0,};
 int f[100] = {0, };
-//static int finished[100][100] = {0, };
-//int findCycleAlgorithm(int );
 
 //for debug--------------------------------
 void print_curr(){
@@ -145,9 +143,7 @@ void remove_node(pthread_mutex_t *mutex){
 void remove_edge(pthread_mutex_t *before, pthread_mutex_t *mutex){
 	for(int i=0; i<100; i++){
 		if(adj_matrix[i][0] == before){
-//			fprintf(stderr, "<< is same?\n");
 			if(adj_matrix[i][edge_tail[i]] == mutex){
-//				fprintf(stderr, ">> same\n");
 				adj_matrix[i][edge_tail[i]--] = 0;
 			}
 			break;
@@ -170,7 +166,6 @@ int answer=-2;
 int present_idx[100] ={0, };
 
 int isCyclicUnit(int v){
-//	if(visited[v] == 0){
 	if(adj_matrix[v][0] == NULL){
 		return -1;
 	}
@@ -183,12 +178,12 @@ int isCyclicUnit(int v){
 		visited[v] = 1;
 		Time++;
 		d[v] = Time;
-		fprintf(stderr, "d[%d] : %d\n",v, Time);
+	//	fprintf(stderr, "d[%d] : %d\n",v, Time);
 		for(int i=1; i<=edge_tail[v]; i++){
 			for(int col = 0; col<100; col++){
 				if(adj_matrix[v][i] == adj_matrix[col][0]){
 					if(f[col] == 0 && d[col] < d[v]){
-						fprintf(stderr,"\n\n>>>>this is cycle adj[%d][%d] vs adj[%d][%d]! : %d < %d | f[%d] : %d?\n\n", v, i, col, 0,d[col], d[v], col, f[col]);
+	//					fprintf(stderr,"\n\n>>>>this is cycle adj[%d][%d] vs adj[%d][%d]! : %d < %d | f[%d] : %d?\n\n", v, i, col, 0,d[col], d[v], col, f[col]);
 						return 1;	//isCyclicUnit(col);
 					}
 					else{
@@ -201,9 +196,8 @@ int isCyclicUnit(int v){
 	}
 	Time++;
 	f[v] = Time;
-	printf("f[%d] : %d\n", v, f[v]);
+//	printf("f[%d] : %d\n", v, f[v]);
 	
-	//}
 	return answer;
 }
 
@@ -241,7 +235,7 @@ int pthread_mutex_lock(pthread_mutex_t *mutex){
 	//LOCKㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜ
 	pthread_mutex_lock_p(&MUTE);
 	pthread_t tid = pthread_self();
-	fprintf(stderr, "Starting of pthread_mutex_lock(%p)==================================\n", mutex);
+//	fprintf(stderr, "Starting of pthread_mutex_lock(%p)==================================\n", mutex);
 
 		// 처음오는 스레드이면 새롭게 추가하고/ 아니면 기존 거에 추가한다.
 		int now = check_tid(tid);
@@ -261,21 +255,10 @@ int pthread_mutex_lock(pthread_mutex_t *mutex){
 
 		print_all();
 
-//		fprintf(stderr, "\t\tresult = %d\n\n", isCycle());
-
-/*		for(int i = 0; i < 100; i++)
-			if(visited[i] != 1)
-				if(findCycleAlgorithm(i))
-					fprintf(stderr, "\n\n\n\ndeadlock\n\n\n\n");
-*/
-//		printf("if cycle? : %d\n",findCycleAlgorithm(0));
-//		if(findCycleAlgorithm(0))
-//			fprintf(stderr, "\n\n\n\t>>>> [DEAD LOCK] <<<<\n\n\n\n");
-		// 아닙니다		if(isCycle(i));
 
 	//UNLOCKㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗ
 	pthread_mutex_unlock_p(&MUTE);
-	fprintf(stderr, "Ending of pthread_mutex_lock(%p)===================================\n\n\n", mutex);
+//	fprintf(stderr, "Ending of pthread_mutex_lock(%p)===================================\n\n\n", mutex);
 
 	if(isCycle() == 1){
 		printf("\n\n\n\n\n\n\n\n\n\n\t>>> [ DEAD LOCK ] <<<\n\n\n\n\n\n\n\n\n\n\n\n\n");
@@ -302,11 +285,11 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex){
 	//LOCKㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜ
 	pthread_mutex_lock_p(&MUTE);
 	pthread_t tid = pthread_self();
-	fprintf(stderr, "Starting of pthread_mutex_unlock(%p)+++++++++++++++++++++++++++++++++++\n", mutex);
+//	fprintf(stderr, "Starting of pthread_mutex_unlock(%p)+++++++++++++++++++++++++++++++++++\n", mutex);
 
 		// 일치하는 스레드에서 해당 뮤택스를 지운다
 		int now = check_tid(tid);
-		fprintf(stderr,"now : %d\n", now);
+//		fprintf(stderr,"now : %d\n", now);
 		if(now == -1){
 		}
 		else{	
@@ -314,12 +297,6 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex){
 
 			for(int i=0; i<10; i++){
 				for(int j=1; j<100; j++){
-				/*	for(k=0; k<100; k++){
-						if(mutex == adj_matrix[k][0]){
-							break;
-						}
-					}
-*/
 					if(i == now){	
 					}
 					else{
@@ -329,13 +306,13 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex){
 					}
 				}
 			}
-			fprintf(stderr, "erase ch : %d, curr[now] : %d, k : %d\n",erase_check, curr[now], k);
+//			fprintf(stderr, "erase ch : %d, curr[now] : %d, k : %d\n",erase_check, curr[now], k);
 			if(erase_check == 0){
 				if(curr[now] == 0){
 					remove_node(mutex);
 				}
 				else{
-					fprintf(stderr, "\t\t >>>i : %d | i < %d -- %d ++ %d\n",0, curr[now]-1,curr[now], curr[now]+1);
+//					fprintf(stderr, "\t\t >>>i : %d | i < %d -- %d ++ %d\n",0, curr[now]-1,curr[now], curr[now]+1);
 					for(int i=0; i<curr[now]; i++){
 						remove_edge(mutex_log[now][i],mutex);
 					}
@@ -345,26 +322,10 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex){
 
 		}
 		reset_tid_log();
-		print_all();
-//		fprintf(stderr, "\t\tunlock result = %d\n\n", isCycle());
-/*		for(int i = 0; i < 100; i++)
-			if(visited[i] != 1)
-				if(findCycleAlgorithm(i))
-						fprintf(stderr,"\n\n\n\n\ndeadlock\n\n\n\n");
-*/		//////////////// new one/////////
-		//if(isCycling){
-		//	printf("[unlock] : is cycle!\n");
-		//}
-
-//		if(findCycleAlgorithm(0)) 
-//			fprintf(stderr, "\n\n\n\n\n\ndeadlock\n\n\n\n\n\n");
-
-
-		print_all();
 
 	//UNLOCKㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗ
 	pthread_mutex_unlock_p(&MUTE);
-	fprintf(stderr, "Ending of pthread_mutex_unlock(%p)+++++++++++++++++++++++++++++++++++++\n\n\n", mutex);
+//	fprintf(stderr, "Ending of pthread_mutex_unlock(%p)+++++++++++++++++++++++++++++++++++++\n\n\n", mutex);
 
 	if(isCycle() == 1){
 		printf("\n\n\n\n\n\n\n\n\n\n\t>>> [ free DEAD LOCK ] <<<\n\n\n\n\n\n\n\n\n\n\n\n\n");
@@ -372,21 +333,3 @@ int pthread_mutex_unlock(pthread_mutex_t *mutex){
 
 	return pthread_mutex_unlock_p(mutex);
 }
-/*
-int findCycleAlgorithm(int here){
-	if(visited[here] != 0){
-		if(visited[here] == -1)
-			return 1;
-		else
-			return 0;
-	}
-	visited[here] = -1;
-	for(int there = 1; there < 100; there++){
-		if(adj_matrix[here][there] != NULL && findCycleAlgorithm(there))
-			return 1;
-	}
-
-	visited[here] = 1;
-	return 0;
-}
-*/
